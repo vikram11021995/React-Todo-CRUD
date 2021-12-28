@@ -9,7 +9,7 @@ function TodoItem({ todo, index }) {
   let [message1, updateMessage1] = useState();
 
   let dispatch = useDispatch();
-
+// console.log(editable)
   const handleSubmitEdit = () => {
     if (name) {
       dispatch(

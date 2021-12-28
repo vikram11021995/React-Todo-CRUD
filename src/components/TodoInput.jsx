@@ -20,7 +20,6 @@ function TodoInput() {
         })
       );
       setName("");
-      // updateMessage("")
     } else {
       updateMessage("* is required");
     }
@@ -42,7 +41,6 @@ function TodoInput() {
         <div className="col-md-10">
           <input
             value={name}
-            // onChange={(e) => setName(e.target.value)}
             onChange={handleChange}
             required
             type="text"
